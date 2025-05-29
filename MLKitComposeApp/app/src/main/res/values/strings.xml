@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MLKit Compose</string>
+    <string name="camera_permission_message">Camera permission is required</string>
+
+    <string name="barcode_scanning_title">Barcode scanning</string>
+    <string name="barcode_scanning_description">Scan and process barcodes. Supports most standard 1D and 2D formats.</string>
+    <string name="barcode_scanning_url">https://developers.google.com/static/ml-kit/images/vision/card-barcode_scanning_480.png</string>
+
+    <string name="face_detection_title">Face detection</string>
+    <string name="face_detection_description">Detect faces and facial landmarks in real time.</string>
+    <string name="face_detection_url">https://developers.google.com/static/ml-kit/images/vision/card-face_detection2_480.png</string>
+
+    <string name="face_mesh_detection_title">Face mesh detection</string>
+    <string name="face_mesh_detection_description">Detect face mesh info on close-range images.</string>
+    <string name="face_mesh_detection_url">https://developers.google.com/static/ml-kit/images/vision/card-face_mesh_detection_480.png</string>
+
+    <string name="text_recognition_title">Text recognition</string>
+    <string name="text_recognition_description">Recognize and extract text from images.</string>
+    <string name="text_recognition_url">https://developers.google.com/static/ml-kit/images/vision/card-text_recognition_480.png</string>
+
+    <string name="image_labeling_detection_title">Image labeling</string>
+    <string name="image_labeling_detection_description">Identify objects, locations, activities, animal species, products, and more."</string>
+    <string name="image_labeling_detection_url">https://developers.google.com/static/ml-kit/images/vision/card-image_labeling_480.png</string>
+
+    <string name="object_detection_title">Object detection</string>
+    <string name="object_detection_description">Localize and track in real time one or more objects in the live camera feed."</string>
+    <string name="object_detection_url">https://developers.google.com/static/ml-kit/images/vision/card-object_detection_480.png</string>
+</resources>

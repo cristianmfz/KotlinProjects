@@ -1,0 +1,16 @@
+<resources>
+    <string name="large_text">
+        <b>¡App de juegos para dos jugadores!</b>\nEn esta aplicación, te ofrecemos una emocionante variedad de juegos diseñados para desafiar y entretener a dos jugadores que buscan competir en diferentes disciplinas.\n\n
+        Nuestra historia se remonta a la amistad entre dos jugadores apasionados por los juegos, quienes comenzaron a desafiarse mutuamente en cualquier oportunidad que tuvieran.
+        Desde partidas de Tres en Raya durante los recreos hasta intensas competiciones de Tira de la Cuerda en el patio trasero, estos dos amigos encontraron en los juegos una forma divertida de fortalecer su amistad y disfrutar de su tiempo juntos.\n\n
+        <b>Nuestros Juegos</b>\n
+        En nuestra aplicación, encontrarás una selección de tres emocionantes juegos diseñados específicamente para dos jugadores:\n
+        1. Tres en Raya: Un clásico juego de estrategia en el que dos jugadores compiten por ser los primeros en juntar tres de sus fichas en línea recta, ya sea horizontal, vertical o diagonalmente.\n
+        2. Tira de la Cuerda: ¡Una prueba de fuerza! En este juego, dos jugadores se enfrentan en una batalla de tira y afloja, tratando de arrastrar al otro más allá de una línea de victoria.\n
+        3. Dedos Rápidos: Pon a prueba tus reflejos y velocidad en este desafiante juego de reacción. Los jugadores deben tocar la pantalla lo más rápido posible cuando se les indique, ¡pero cuidado con adelantarte!\n\n
+        <b>Contáctanos</b>\n
+        ¿Tienes alguna sugerencia para un nuevo juego que nuestros jugadores puedan disfrutar? ¿O simplemente quieres compartir tu experiencia con nuestra aplicación?
+        ¡Nos encantaría escucharte! No dudes en escribirnos a nuestro correo electrónico [2playergames@gmail.com] con tus ideas, comentarios o preguntas. ¡Esperamos con ansias tus mensajes!\n\n
+        ¡Gracias por ser parte de nuestra comunidad de juegos para dos jugadores!
+    </string>
+</resources>

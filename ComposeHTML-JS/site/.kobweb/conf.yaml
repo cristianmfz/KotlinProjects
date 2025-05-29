@@ -1,0 +1,14 @@
+site:
+  title: "ComposeHTML-JS"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/kotlin-webpack/js/developmentExecutable/composehtml_js.js"
+      api: "build/libs/composehtml_js.jar"
+    prod:
+      script: "build/kotlin-webpack/js/productionExecutable/composehtml_js.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080

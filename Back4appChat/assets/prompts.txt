@@ -1,0 +1,25 @@
+Hi there, I want to create a chat app. And for that purpose I need you to create two database tables on the backend for my application with an id: YOUR_APPLICATION_ID.
+
+The first table: ChatRoom, should contain the following fields: messages(List of Message objects), which is also a reference to the second table), participants(List of User, which is also a reference to a _User on the backend), participantsIdentifier (String), lastSeenMessages(Map of Strings).
+
+The second table is: Message, and should contain the following fields: text(String), owner(relational field for _User database table), chatRoom(relational field to point to ChatRoom), timestamp(Long value).
+
+Deploy those two tables on my backend.
+
+
+
+Here´s my application id: YOUR_APPLICATION_ID. (security_rules.js)
+
+I need you to create a security rules for me, so that each user can read the chatroom and messages from the message table, only if that user belongs to the list of participants, or it´s object id is the same as the one from the participants list. Could you create those security rules and deploy it for me?
+
+
+
+My app id is: YOUR_APPLICATION_ID. I am developing a chat application using Back4App as the backend, with Kotlin and Jetpack Compose for Android. The issue I am facing is as follows:
+
+I have a list of users stored in the ParseUser class, and I want users to search for other users in the database. I am using a query to filter users by username with whereContains("username", searchQuery.value).
+
+However, when I search for my own name (the name I am logged in with), the search works correctly and I can see my user. The issue arises when I search for other users that are stored in the database but do not match the logged-in user's name. Even though these users exist in the database, they are not retrieved correctly in the search.
+
+I believe this may be related to access permissions or ACLs (Access Control Lists) on the user objects, because when I search for my own name, the query works fine. Could you please review the permission settings on my user database and help ensure that the access permissions are correctly configured to allow searching for other users?
+
+Please identify and solve this problem for me.
