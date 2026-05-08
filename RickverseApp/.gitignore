@@ -2,6 +2,7 @@
 .kotlin
 .gradle
 /cache/
+**/cache/
 **/build/
 xcuserdata
 !src/**/build/
