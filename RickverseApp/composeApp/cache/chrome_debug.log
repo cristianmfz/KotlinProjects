@@ -1,0 +1,2 @@
+[1932:16412:0508/103553.802:WARNING:chrome\browser\signin\account_consistency_mode_manager.cc:72] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[1932:16412:0508/103553.816:WARNING:chrome\browser\extensions\external_registry_loader_win.cc:232] Error observing HKLM: 5

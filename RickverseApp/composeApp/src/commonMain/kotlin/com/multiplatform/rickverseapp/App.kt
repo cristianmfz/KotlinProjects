@@ -1,0 +1,14 @@
+package com.multiplatform.rickverseapp
+
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.tooling.preview.Preview
+import com.multiplatform.rickverseapp.navigation.NavigationWrapper
+
+@Composable
+@Preview
+fun App() {
+    MaterialTheme {
+        NavigationWrapper()
+    }
+}

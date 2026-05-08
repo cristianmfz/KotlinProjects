@@ -1,0 +1,18 @@
+package com.multiplatform.rickverseapp.ui.common.components
+
+import androidx.compose.foundation.lazy.LazyRow
+import androidx.compose.runtime.Composable
+import androidx.paging.compose.LazyPagingItems
+
+@Composable
+actual fun <T : Any> LazyRowTarget(
+    pagingItems: LazyPagingItems<T>, itemView: @Composable (T) -> Unit
+) {
+    LazyRow {
+        items(pagingItems.itemCount){ pos ->
+            pagingItems[pos]?.let { item ->
+                itemView(item)
+            }
+        }
+    }
+}
